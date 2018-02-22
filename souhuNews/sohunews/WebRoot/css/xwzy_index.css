@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body{padding:0px; 
+margin:0px;
+font:12px 宋体;
+}
+a:hover{
+	color:#f00;
+	text-decoration:underline;
+	
+	}
+a{
+	font-size:16px;
+	text-decoration:none;
+	color:#000;
+	heigth:30px;
+	 margin-left:10px;
+	
+	
+	}
+span{
+	heigth:50px;
+	padding-top:10px;
+	}
+li{
+	color:#006;
+}
+#container{
+	width:930px;
+ margin:0px auto;
+}
+#top{
+width:930px;
+height:100px;
+}
+#zhuce{
+width:930px;
+height:30px;
+float:left;
+
+}
+.denglu{
+float:left;
+font-size:20px;
+width:auto；}
+.google{
+float:right;
+height:auto;}
+#logo{
+width:930px;
+height:80px;
+float:left;
+}
+#logo1{
+height:80px;
+width:140px;
+float:left;
+background:url(../Image/logo.jpg) no-repeat;}
+#logo2{
+height:80px;
+width:790px;
+float:left;
+background: no-repeat url(../Image/a_b01.gif);}
+
+
+#main{
+width:930px;
+height:850px;}
+#left{
+float:left;
+width:150px;
+height:850px;}
+#left1 {
+float:left;
+width:145px;
+height:280px;
+margin:10px,0px;
+background:url(../Image/sidebarbg.gif);
+}
+.head1{
+float:left;}
+.news1{
+font-size:12px;
+margin:5px 0px;
+padding:0px;
+text-indent:2em;}
+
+
+#right{
+float:left;
+height:850px;
+width:775px;
+}
+#r_logo{
+background:url(../Image/blue_bar.png) no-repeat;
+width:775px;
+height:30px;}
+#Layecr1 {
+float:left
+width:151px;
+height:25px;
+background:url(../Image/class_type.gif) no-repeat;
+}
+#r_main1{
+float:left;
+height:50px;
+font-size:14px;
+psdding-top:50px;
+ margin-top:20px;
+width:500px;}
+
+#r_main2{
+float:left;
+font-size:14px;
+height:750px;
+width:500px;}
+
+#tit li{
+font-family:黑体; 
+color:#000;
+font-size:14px;
+font-weight:bold; 
+letter-spacing:2px; 
+list-style:none; 
+float:left; 
+width:40px; 
+line-height:10px;
+margin:5px 0px;
+padding:5px;}
+hr{
+float:left;
+width:600px;
+color:#666666;}
+.text{
+margin:10px;
+float:left;
+font-size:12px;}
+.text li{
+padding:3px;}
+#r_img{
+margin-top:-100px;
+width:250px;
+
+height:850px;
+float:left;}
+#r_img dd{
+font-size:14px;
+padding:5px;
+margin: 0px 0px 0px 50px ;
+ }
+
+#bottom{
+width:930px;
+height:50px;}
+#hezuo{
+background:url(../Image/friend_ico.gif) left no-repeat;
+width:930px;
+height:20px;
+}
+#bottom hr{
+float:left;
+width:930px;
+color:#666666;}
+#address li{
+margin:0px 10px;
+float:left;
+font-size:12px;
+list-style:none; }
+#d1{
+	color:#006;
+	font-weight:500;
+}
+#footer{ clear:both; width:947px; margin:14px auto 0; text-align:center;}
+	#footer p{ font:14px/24px Arial; color:#999;}
+	#footer p.copyright{ color:#333; margin-top:15px;}

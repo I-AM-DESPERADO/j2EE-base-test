@@ -1,0 +1,125 @@
+/* 
+ * GWAP 个人档案类样式 
+ * Author: madf
+ * Date: 2009/07/29
+ */
+ 
+.t1 a{ color:#1a66b3; text-decoration:underline}
+.t1 a:hover{ color:#1a66b3; text-decoration:underline}
+.t2 a{ color:#414141; text-decoration:none}
+.t2 a:hover{ color:#414141; text-decoration:underline}
+.t3 a{ color:#666; text-decoration:none}
+.t3 a:hover{ color:#666; text-decoration:underline}
+em{ color:#e52600; font-style:normal}
+.c_gray{ color:#9b9b9b; font-size:12px}
+.your_position{ height:25px; padding:10px 0 0 5px; width:945px; margin:auto}
+.account_center{ width:950px; padding-bottom:30px; margin:auto; margin-bottom:30px; background:url(../images/left_navi_bj2.gif) repeat-y left; border-bottom:solid 1px #a8e4ef}
+.account_left{ width:157px; padding-right:10px; float:left}
+.left_navi{ width:157px}
+.left_navi .account_manage{ width:157px; height:25px; background:url(../images/left_navi_top_c.gif) repeat-x}
+.left_navi .account_manage .manage_l{ width:5px; height:25px; background:url(../images/left_navi_top_l.gif) no-repeat; float:left}
+.left_navi .account_manage h2{ font-size:14px; padding-top:5px; padding-left:25px; color:#666; float:left}
+.left_navi .account_manage .manage_r{ width:4px; height:25px; background:url(../images/left_navi_top_r.gif) no-repeat; float:right}
+.left_navi ul{ width:132px; margin:auto;list-style:none}
+.left_navi ul li{ height:18px; padding:7px 0 0 18px; border-top:solid 1px #f4fcfe; border-bottom:solid 1px #bddeef; color:#295371; display:block}
+.left_navi ul .top_li{ border-top:none}
+.left_navi ul .bottom_li{ border-bottom:none}
+.left_navi ul .now_bj{ background:url(../images/left_navi_bj.gif) no-repeat 0 8px; color:#e52600}
+.left_navi .single_message{ width:129px; height:20px; font-size:14px; font-weight:normal; padding-top:5px; padding-left:28px; color:#666; font-weight:bold; background:url(../images/left_navi_top_c.gif) repeat-x}
+.account_left .button_exit{ width:70px; height:22px; padding-top:1px; margin:12px 0 0 45px; cursor:pointer}
+.account_right{ width:770px; float:left}
+.empty_box_left{ clear:left; height:1px; overflow:hidden}
+
+.archives_title{ height:17px;padding-left:10px; padding-top:5px; border-bottom:solid 1px #666; margin-bottom:1px}
+.reduice_archives_line{ border-bottom:none}
+.archives_title h2{ font-size:14px; color:#666}
+.modify_pic{ height:50px; padding:15px 0 15px 10px}
+.modify_pic img{ width:48px; height:48px; border:solid 1px #cacaca; margin-right:20px; float:left}
+.modify_pic p{ float:left; padding-top:35px}
+.basic_message{ height:18px; padding:5px 0 0 10px; border:solid 1px #c8c8c8; background-color:#e3fcff; margin-bottom:18px}
+.reduce_pp{ margin-bottom:0}
+.edit_message{ padding-bottom:35px}
+.mesage_list{ padding-bottom:20px}
+.list_title{ width:106px; text-align:right; padding-top:5px; float:left}
+.list_edit{ width:500px; padding-left:7px; float:left}
+.list_edit select{border:solid 1px #a1a1a1}
+.add_edit_h{ height:28px}
+.list_edit .nickname{ width:140px; height:17px; padding:1px 0 0 1px; float:left; margin-right:7px; border:solid 1px #a1a1a1}
+.list_edit .address{ height:30px}
+.list_edit .address select{ margin-right:10px; float:left; font-size:12px}
+.list_edit .address .notice_w{width:160px; height:15px; color:#cc3300; background:url(../images/label1.gif) no-repeat 4px 2px #ffeddd; padding:3px 0 0 25px; border:solid 1px #cc3300; float:left}
+
+.list_edit .choice_city{width:430px; height:15px; border:solid 1px #a1a1a1; background-color:#f6f6f6; padding:3px 0 0 10px; margin-top:5px}
+.list_edit .choice_city ul{ list-style:none}
+.list_edit .choice_city ul li{padding:0px 2px 0 2px; margin-right:7px; float:left}
+.list_edit .li_over{background-color:#c5e6f7; color:#ff7000; cursor:pointer}
+.list_edit .li_out{background-color:#f6f6f6}
+
+.list_edit .blog_address{ width:435px; height:17px; padding:1px 0 0 1px; border:solid 1px #a1a1a1}
+.list_edit .checkbox{ float:left; width:20px; height:20px; margin-right:3px}
+.list_edit .checkbox_cont{ float:left; padding-top:5px; margin-right:10px}
+.list_edit textarea{border:solid 1px #a1a1a1}
+.list_edit .text_interest{ width:435px; height:40px; font-size:12px; padding:2px 1px}
+.list_edit .text_love{width:435px; height:60px; font-size:12px; padding:2px 1px}
+.list_edit .add_textarea_gray{ color:#a6a6a6}
+.modify_address{ text-decoration:underline; cursor:pointer;color:#1a66b3}
+.modify_address_over{ text-decoration:underline; cursor:pointer; color:#1a66b3}
+
+.list_edit .text_intro{width:435px; height:100px; font-size:12px; padding:2px 1px}
+.radio_button{ width:20px; height:20px; float:left}
+.choice_cont{ float:left; padding-top:5px; margin-left:3px; margin-right:10px}
+.choice_cont_r{ margin-right:0}
+.my_work{ width:213px; height:16px; padding:1px; border:solid 1px #a1a1a1; margin-right:5px; float:left}
+.my_work input{ float:left; border:0; font-size:12px; padding-top:1px; width:185px}
+.my_work img{ float:right}
+.model_select{ float:left}
+.model_span{ float:left; padding:5px}
+.list_other{padding-left:35px; float:left; color:#a6a6a6}
+.add_top_h{ padding-top:5px}
+.now_color{ color:#414141}
+.reduice_other_w{ padding-left:12px}
+.separate_line{height:25px; background:url(../images/line_x.gif) repeat-x top}
+.save_mess{ width:90px; height:22px; font-size:12px; padding-top:1px; margin-left:325px; cursor:pointer; float:left}
+.save_photo{ width:90px; height:22px; font-size:12px; padding-top:1px; margin:16px 0 0 20px; cursor:pointer; float:left}
+.updating{ padding-left:170px}
+.add_update_top{ padding-top:20px}
+.update{ width:450px; height:26px; padding-left:40px; padding-top:6px; border-bottom:solid 1px #cacaca; background:url(../images/update_bg.gif) repeat-x}
+.update img{ float:left; width:24px; height:22px; margin-right:10px}
+.update p{ float:left; font-size:14px; padding-top:5px}
+.edit_photo{ padding:15px 0 0 66px}
+.photo_prev{ width:100px; height:260px; float:left; padding-right:50px}
+.photo_prev img{ border:solid 1px #cacaca}
+.photo_prev p{ padding-top:15px; text-align:center}
+.photo_browse{ width:550px; height:355px; float:left; padding-top:33px}
+.go_choice{ padding-bottom:3px; font-size:14px}
+.go_choice2{font-size:14px; padding:18px 0 3px 0; background:url(../images/line_x.gif) repeat-x}
+.browse_mypic{ height:22px; margin-bottom:5px}
+.browse_mypic .browse_button{ width:50px; height:22px; margin-left:2px; padding-top:1px; cursor:pointer}
+.notice_choice{ width:200px; height:16px; color:#e52600; background:url(../images/label1.gif) no-repeat 8px 2px #ffeddd; padding:3px 0 0 28px; margin-bottom:20px;  border:solid 1px #e52600}
+
+.notice_choice_img{ width:230px; height:16px; color:#e52600; background:url(../images/label1.gif) no-repeat 8px 2px #ffeddd; padding:3px 0 0 28px; margin-bottom:20px;  border:solid 1px #e52600}
+
+
+.notice_write{width:231px; height:15px; color:#cc3300; background:url(../images/label1.gif) no-repeat 4px 2px #ffeddd; padding:3px 0 0 25px; border:solid 1px #cc3300; float:left}
+.notice_write_area{width:90px; height:15px; color:#cc3300; background:url(../images/label1.gif) no-repeat 4px 2px #ffeddd; padding:3px 0 0 25px; border:solid 1px #cc3300; float:left}
+
+
+
+
+.total_ok{height:15px; color:#cc3300; background:url(../images/icon_14x15_ok.gif) no-repeat 4px 2px #ffeddd; margin-left:5px; padding:3px 10px 0 25px; border:solid 1px #cc3300; float:left}
+.total_ok_pic{height:15px; color:#cc3300; background:url(../images/icon_14x15_ok.gif) no-repeat 4px 2px #ffeddd; margin-left:4px; margin-top:16px; padding:3px 0 0 25px; border:solid 1px #cc3300; float:left}
+.loading{width:250px; height:18px; color:#1a66b3;padding:13px 0 0 90px; margin-bottom:15px}
+.loading img{ float:left; margin-right:8px}
+.loading p{ float:left; padding-top:3px}
+.all_photo{ width:422px; height:162px; padding-top:10px; padding:10px 8px 0 15px; background-color:#f4feff; border:solid 1px #d3d3d3}
+.all_photo div{ width:52px; height:50px; display:inline; text-align:center; padding-top:2px; border:solid 1px #cacaca; margin:10px 7px 14px 20px; float:left}
+.all_photo div img{ width:48px; height:48px}
+.all_photo .mouse_over{background-color:#fdc85a}
+.all_photo .mouse_out{ border:solid 1px #cacaca}
+.all_photo .mouse_active{background-color:#bc2931}
+
+.windo_work{ width:212px; border:solid 1px #7f9db9; background-color:#f6f6f6}
+.windo_work ul{ list-style:none}
+.windo_work ul li{ width:100px; float:left; padding:5px 0 4px 6px; display:inline; word-break:keep-all; white-space:nowrap}
+.windo_work .m_over{background-color:#c5e7f6; color:#ff7000; cursor:pointer}
+.windo_work .m_out{background-color:#f6f6f6}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<package name="main" extends="struts-default" namespace="/main">
+		<action name="listProduct" class="com.web.action.main.ProductAction" method="list">
+			<result name="success">/WEB-INF/jsp/main/list_product.jsp</result>
+		
+		</action>
+		<action name="listProductPage" class="com.web.action.main.ProductAction" method="listPage">
+			<result name="success">/WEB-INF/jsp/main/list_product.jsp</result>
+		
+		</action>
+		<action name="listCategory" class="com.web.action.main.CategoryAction" method="list">
+			<result name="success">/WEB-INF/jsp/main/category.jsp</result>
+		
+		</action>
+		<action name="categoryListAction" class="com.web.action.main.categoryListAction" >
+			<result name="success">/WEB-INF/jsp/main/booklist.jsp</result>
+		
+		</action>
+		<action name="detailAction" class="com.web.action.main.DetailAction" >
+			<result name="success">/WEB-INF/jsp/main/detail.jsp</result>
+		
+		</action>
+		<action name="buyAction" class="com.web.action.main.BuyAction" >
+			<result name="success">/WEB-INF/jsp/cart/cart_list.jsp</result>
+		
+		</action>
+</package>
+	
+</struts>

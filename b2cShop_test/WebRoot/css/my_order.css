@@ -1,0 +1,193 @@
+/* 
+ * GWAP “我的订单+购物礼券”类样式
+ * Author: madf
+ * Date: 2009/07/29
+ */
+
+.t1 a:link,.t1 a:visited,.t1 a:hover,.t1 a:active{ color:#1a66b3; text-decoration:underline}
+.t2 a:link,.t2 a:visited{ color:#878787; text-decoration:none}
+.t2 a:hover,.t2 a:active{ color:#878787; text-decoration:underline}
+.t3 a:link,.t3 a:visited{ color:#666; text-decoration:none}
+.t3 a:hover,.t3 a:active{ color:#666; text-decoration:underline}
+
+.love_red{color:#cc3300}/*08.5.21new*/
+.order_donate{ margin:0 0 2px 3px}/*08.5.28new*/
+.text_bold{ font-weight:bold}
+.text_left{ text-align:left}
+.main_red{ color:#cc3300; font-weight:bold}
+.c_gray{ color:#9b9b9b}
+.t_red{ color:#cc3300}/*08.3.13new*/
+.empty_box2{ clear:both}
+.p_bottm_empty{ width:950px; height:50px; margin:auto}
+.your_position{ width:950px; margin:auto; height:20px; padding:12px 0 7px 0}
+.account_center{ width:950px; padding-bottom:20px; margin:auto; background:url(../images/left_navi_bj2.gif) repeat-y left; border-bottom:solid 1px #a8e4ef}
+.account_right{ width:773px; float:left; margin-bottom:20px;overflow:hidden;}
+.account_right h2{ height:20px; padding-top:5px; padding-left:10px; font-size:14px}
+
+
+
+
+.add_icon{ padding-bottom:5px}/*08.6.26 new*/
+.add_icon img{ margin-bottom:5px!important;>margin-bottom:0!important;margin-bottom:0}/*08.6.26 new*/
+
+.change_h2{ font-size:12px; font-weight:normal; color:#404040}
+
+
+.tabl_order .love_space{ padding-right:0}/*08.5.21new*/
+
+
+.img_time{float:left; margin-left:5px; display:block}
+.text_time{padding-top:1px; display:block; float:left; margin-left:5px}/*08.7.3modify*/
+
+
+
+.add_line{ height:1px; border-bottom:solid 1px #a1a1a1; overflow:hidden}
+.shadow_line{height:1px; border-bottom:solid 2px #a1a1a1; overflow:hidden; margin-bottom:15px}
+.dash_line{height:1px; border-bottom:dashed 1px #d3d3d3; overflow:hidden}
+.total_pay{ height:35px; line-height:35px; text-align:right; font-size:14px; font-weight:bold; border-bottom:none!important}
+.total_pay input{ width:100px; height:25px; font-size:14px; font-weight:bold; cursor:pointer}
+
+.gift_w_1{ width:103px}
+.gift_w_2{ width:50px}
+.gift_w_3{ width:138px}
+.gift_w_4{ width:142px}
+.gift_w_5{ }
+
+
+/*根据以前样式名称修改后的翻页样式开始*/
+.page_top_empty{ height:18px}
+.page_turn{ height:20px;padding-top:6px }
+.page_l_empty{ height:20px; float:left}
+.turnpage{ float:right;padding-top:15px }
+.turnpage span{ float:left; display:block }
+.turnpage img{ float:left; margin-right:6px }
+.turnpage .kuang{ width:30px; padding-left:2px; border:1px solid #AFAFAF; margin:0 4px; height:13px; line-height:13px; float:left }
+.turnpage .num_now{background:#C30; padding:1px 2px 0 2px; margin:0 2px; color:#fff; height:14px; overflow:hidden; float:left}
+.turnpage .num:link{background:#FEEEC2;padding:1px 4px; margin:2px; color:#404040; text-decoration:none;}
+.turnpage .num:visited{background:#FEEEC2;padding:1px 4px; margin:2px; color:#404040; text-decoration:none;}
+.turnpage .num:hover{background:#C30; padding:1px 4px; margin:2px; color:#fff; text-decoration:none}
+.turnpage .t_text{ padding-top:2px}
+.turnpage .next{margin-right:39px !important; margin-left:8px}
+.turnpage .enter{margin-left:6px}
+/*根据以前样式名称修改后的翻页样式结束*/
+
+
+
+/*弹窗样式*/
+.window{width:300px; height:117px; border:solid 2px #447aa9; background-color:#fff}
+.add_w_h{ height:196px}
+.wind_title{height:20px; padding:2px 2px 0 8px; background-color:#458bc9}
+.title_left{padding-top:2px; color:#fff; float:left}
+.window_close{ width:30px; height:18px; float:right; padding-top:2px}
+.window_close a:link,.window_close a:visited,.window_close a:hover,.window_close a:active{color:#dfeffc; text-decoration:underline}
+.window ul{ list-style:none; line-height:22px; width:264px; padding-left:11px; padding-top:7px; padding-bottom:8px}
+.w_notice_1{padding-left:43px; padding-top:3px; width:295px; height:30px; margin-top:25px; background:url(../images/icon_notice.gif) no-repeat 20px top; font-size:14px}
+.w_notice_2{ width:162px; padding-left:79px; padding-top:3px; height:30px; margin:auto; margin-top:25px; border-bottom:solid 1px #d4d4d4; background:
+url(../images/p_success.gif) no-repeat 48px top; font-size:14px}
+.div_button{width:200px; height:20px; margin:0 40 10;}
+
+.div_cancel_button{ margin-left:50px; width:200px; height:40px; margin:0 40 10;}
+
+ 
+.w_ok{ width:46px; height:20px; cursor:pointer}
+.w_ok2{ width:46px; height:20px; cursor:pointer; margin-left:117px}
+.w_cancel{ width:46px; height:20px; cursor:pointer; margin-left:16px}
+
+
+.new_window{width:345px; border:solid 2px #447aa9; background-color:#fff}
+.wind_top{height:20px; padding:2px 2px 0 8px; background-color:#458bc9}
+.wind_top .title_left{padding-top:2px; color:#fff; float:left}
+.w_close{ float:right}
+.w_notice{ line-height:18px; background-color:#e5e5e5; padding:8px 7px 5px 8px; color:#878787; border:solid 1px #fff}
+.dang_money{height:22px; padding-top:8px; padding-left:20px}
+.dang_money input{width:165px; height:15px; border:solid 1px #909292; padding:3px 0 0 3px}
+.button_close{height:22px; padding-top:1px; margin:13px 0 10px 135px}
+.w_ok_use{ width:200px; padding-bottom:5px; line-height:20px; margin:30px 0 0 70px; padding-left:28px; background:url(../images/w_use_icon.gif) no-repeat left top}
+.button_tj{ width:60px; height:22px; padding-top:1px; margin:13px 0 10px 116px; float:left; margin-right:5px}
+.notice_fp{color:#cc3300; display:block; padding-top:18px}
+.choice_p{ height:28px; padding:20px 0 0 52px}
+.choice_date{ height:47px; padding-left:52px}
+.date_in{ float:left; width:112px; padding-left:3px; height:15px; padding-top:4px; border:solid 1px #9b9b9b; color:#878787; margin-right:1px}
+.choice_date img{ float:left; margin-right:10px}
+.choice_date .tj_date{ width:60px; height:22px; cursor:pointer}
+.date_ww{ width:150px; height:170px; border:solid 1px #7e9db9}
+
+
+.box_loading{ display:none;position:absolute;top:90px; right:5px;width:130px; height:60px; background:#ffffff; border:solid 1px #66CCCC; padding-top:15px; text-align:center;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85)}
+.box_loading p{ padding-top:7px}
+
+#div_shield {	DISPLAY: none;	Z-INDEX: 1;	FILTER: alpha(opacity=50);	LEFT: 0px;	POSITION: absolute;	TOP: 0px;	BACKGROUND-COLOR: #c0c0c0;	opacity: 0.50}
+
+
+
+
+/*08.7.7modify*/
+.m_w1{ width:120px}
+.m_w2{ width:50px}
+.m_w3{ width:135px}
+.m_w4{ width:48px}
+.m_w5{ width:65px}
+.m_w6{ width:160px}
+
+
+
+.no_dang_m{border:solid 1px #d3d3d3;}
+.no_dang_m .no_dang_border{ border:5px solid #f8f8f8; padding-top:15px; padding-bottom:15px }
+.activ{ width:257px; padding-left:15px; height:150px; float:left}
+.activ div{ height:28px; padding-top:5px}
+.activ .put_in{ width:159px; height:16px; border:solid 1px #929292; padding-top:3px}
+.activ .butt_acti{ width:60px; height:20px; margin:6px 0 0 72px; cursor:pointer}
+.intro{ width:440px; float:left;border-left:dashed 1px #b9b9b9;  padding:5px 0 0 20px; color:#878787;}
+.intro h3{ font-size:12px}
+.intro p{ line-height:20px; padding-bottom:8px; padding-top:2px}
+.intro .last_line_intro{ padding-bottom:0!important; }
+
+/*从my_account.css移过来的*/
+.account_message{ width:497px;height:110px; font-size:14px;background-color:#f4feff;border:1px solid #d3d3d3; padding:85px 0 0 145px;margin:auto; margin-top:30px; }
+
+
+input{vertical-align:middle; font-size:12px}
+.empty_box{ clear:left; height:1px; overflow:hidden}
+.dot{ letter-spacing:-3px}
+.now_n{ font-weight:normal}
+.notice_waite{color:#9b9b9b; height:25px; padding-top:5px}
+.order_navi{ width:759px; height:24px; background:url(../images/bg_line.gif) repeat-x bottom; padding-left:19px; list-style:none; margin-bottom:1px!important;>margin-bottom:0px!important;margin-bottom:0px}
+.order_navi li{ display:block; width:156px; height:18px; float:left; padding-top:6px; margin-right:1px; background:url(../images/order_navi_bg.gif) no-repeat top; text-align:center}
+.order_navi a{ color:#404040}
+.order_navi .order_now{ background:url(../images/order_navi_bg_now.gif) no-repeat; font-weight:bold}
+.tabl_order{ width:778px; border-collapse:collapse; text-align:center; border-top:solid 1px #e3fcff}
+.tabl_order td{padding:0 10px; height:28px; border-bottom:solid 1px #dadada}
+.tabl_titlebj{ background-color:#e3fcff}
+.tabl_titlebj td{ height:18px; padding-top:4px}
+.img_time{float:left; margin-left:5px; display:block}
+.text_time{padding-top:1px; display:block; float:left; margin-left:5px}
+.tabl_order .l_line{ border-left:solid 1px #83c5d5;border-bottom:solid 1px #83c5d5}
+.tabl_order .b_line{border-bottom:solid 1px #83c5d5}
+.td_w_1{ width:80px}
+.td_w_2{ width:58px}
+.td_w_3{ width:93px}
+.td_w_4{ width:65px}
+.td_w_5{ width:61px}
+.td_w_6{ width:92px}
+.td_w_7{ width:109px}
+.td_w_2_2{ width:63px}
+.td_w_3_2{ width:80px}
+.td_w_3_3{ width:93px}
+.td_w_c{ width:25px}
+.your_news{ padding-top:15px; text-align:right; color:#9b9b9b}
+.tabl_order .page_out{text-align:right; border-bottom:none; padding-top:6px; padding-right:0}
+
+.litt_bg{ width:778px; height:5px; background-color:#e3fcff; overflow:hidden; margin-top:-1px !important;>margin-top:0px !important; margin-top:0; margin-bottom:20px}
+.no_order{ height:170px; line-height:170px; text-align:center}
+
+
+/*合并支付*/
+.pay_title{ width:768px; padding-left:10px; height:20px; padding-top:5px; border-bottom:solid 1px #a1a1a1}
+.pay_title h2{ font-size:14px}
+.pay_add{font-weight:normal; font-size:12px; color:#878787}
+.notice_waite_2{color:#9b9b9b; height:25px; padding-top:2px; float:right}
+.td_w_2_2{ width:63px}
+.td_w_3_2{ width:80px}
+.td_w_3_3{ width:93px}
+.td_w_c{ width:25px}
+.bank_h{ width:768px; height:20px; border-bottom:solid 1px #8a8589; padding-top:15px; padding-left:10px; margin-bottom:1px}

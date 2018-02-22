@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width=744px;
+    height=650px;
+}
+a{
+	color:#000;
+}
+td{
+	height:17px;
+}
+#t1{
+	width:30px;
+	font-size:12px;
+	padding-left:10px;
+}
+#row1{
+	font-size:12px;
+}
+#row2{
+	font-size:12px;
+}
+#row3{
+	font-size:12px;
+}
+
+#t2{
+	width:700px;
+	font-size:12px;
+	padding-left:300px;
+}
+#t3{
+	width:150px;
+	font-size:12px;
+}
+.n{
+	cursor:pointer;
+}
+
+

@@ -1,0 +1,266 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>userList.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<link rel="stylesheet" href="/b2cShop/css/tarena.css" type="text/css"/>
+<link rel="stylesheet" href="/b2cShop/css/gwap.css" type="text/css"/>
+<link href="/b2cShop/css/my_order.css" rel="stylesheet" type="text/css" />
+<link href="/b2cShop/css/mydd_title.css" rel="stylesheet" type="text/css" />
+<link href="/b2cShop/css/mydd_leftnavi.css" rel="stylesheet" type="text/css" />
+<link href="/b2cShop/css/my_dd.css" rel="stylesheet" type="text/css" />
+<link href="/b2cShop/css/mydd_public.css" rel="stylesheet" type="text/css" />
+<!-- 引入外部 js 文件 -->
+<script language="javascript" src="/b2cShop/js/tarena.js"></script>
+<script language="javascript" src="/b2cShop/js/jquery-1.4.4.js"></script>
+<script language="javascript" src="/b2cShop/js/manager/login.js"></script>
+  </head>
+  
+  <body>
+    <div  align="center">
+<!--页头开始-->
+		<table width="962" border="0" cellpadding="0" cellspacing="0" class="BorderLRSolidF9FEAD">
+			<tr>
+				<td width="263" height="21" valign="middle" nowrap="nowrap">
+					<strong class="font_12_black">&nbsp;&nbsp;&nbsp;您好， 
+     	[&nbsp;<span class="font_12_C30">admin</span>&nbsp;]&nbsp;&nbsp;
+     	<strong>欢迎光临</strong>
+							<span class="font_12_black">&nbsp;&nbsp;[<a
+								href="#"
+								target="_self">退出登录</a>]</span>
+				</td>
+				<td align="center">&nbsp;
+				</td>  
+				<td width="65" align="right" valign="middle" nowrap="nowrap" class="font_12_black"><a href="#">系统管理</a> &nbsp;|</td>
+				<td width="37" align="left" valign="middle" nowrap="nowrap"
+					class="font_12_black">
+					帮助&nbsp;&nbsp;</td>
+				
+				<td width="5">&nbsp;</td>
+			</tr>
+		</table>
+		<table width="962" border="0" cellpadding="0" cellspacing="0"
+			class="BorderALLSolidD8E4C6">
+			
+			<tr>
+				<td width="18" height="12"></td>
+				<td width="148" rowspan="4" valign="middle">
+					<a href="index.action"><img src="/b2cShop/images/booksaleimg/book_logo.gif"
+						alt="丁丁网，全球最大的中文网上书店" width="148" height="40" border="0" /></a> </td>
+				<td width="24">&nbsp;</td>
+				<td width="85">&nbsp;</td>
+				<td width="75">&nbsp;</td>
+				<td width="20">&nbsp;</td>
+				<td width="55">&nbsp;</td>
+				<td width="39">&nbsp;</td>
+				<td width="93">&nbsp;</td>
+				<td width="95">&nbsp;</td>
+				<td width="95">&nbsp;</td>
+				<td width="92">&nbsp;</td>
+				<td width="121">&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="25"></td>
+				<td></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="25"></td>
+				<td></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td height="2"></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+		
+		<table width="962" border="0" cellpadding="0" cellspacing="0"
+			class="TableJianJu">
+			<tr>
+				<td width="962" height="10">
+				</td>
+			</tr>
+		</table>
+<!--页头结束-->
+</div>
+<!--操作区-->
+<div class="mdtitle">
+	<div class="mdtitle_cont">
+		<div class="mdtitle_img"><img src="/b2cShop/images/xtgl_pic.gif" /></div>
+		<div class="mdtitle_lasttime"><span class="gray666" id="loginfospan"></span></div>
+		<div class="mdtitle_navi">
+			<ul class="mdtitle_ul">
+				<li><span class="font_12_1a66b3">用户列表</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="mdtitle_shadow"></div>
+</div>
+<div class="main_frame">
+	<!--左栏-->
+	<div class="mdlnavi">
+		<div class="left_dd">
+			<div class="title">用户管理</div>
+			<ul>
+				<li>&nbsp;&nbsp;&nbsp;用户列表</li>
+			</ul>
+		</div>
+		<div class="left_dd">
+			<div class="title">商品管理</div>
+			<ul>
+				<li><a name="profileleft" href="#" target="_parent">添加商品</a></li>
+				<li><a name="myemail" href="#" target="_parent">商品列表</a></li>
+				<li class="lilast">&nbsp;</li>
+			</ul>
+		</div>
+		<div class="left_dd">
+			<div class="title">订单管理</div>
+			<ul>
+				<li><a name="profileleft" href="#" target="_parent">订单列表</a></li>
+				
+				<li class="lilast">&nbsp;</li>
+			</ul>
+		</div>
+		<!--个人信息结束-->
+		<div style="margin:20px 0; text-align:center">
+			<input type="button" onclick="#" name="Submit" value="退出登录" />
+		</div>
+	</div>
+	<!-- 左栏结束 -->
+	<!--账户右栏开始-->
+	<div class="main_right">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tbody><tr>
+			<td>
+				<div id="orderList"> 
+					<table class="tabl_order">
+						<tbody><tr class="tabl_titlebj">
+							<td class="b_line td_w_1">编号</td>
+						    <td class="l_line td_w_2">用户名</td>
+						    <td class="l_line td_w_3">电子邮箱</td>
+						    <td class="l_line td_w_7">操作</td>
+						</tr>
+		
+						<tr style="background-color: rgb(255, 255, 255); font-weight: normal;" onmouseover="this.style.backgroundColor = '#f4f4f4';" onmouseout="this.style.fontWeight = 'normal';this.style.backgroundColor = '#fff';">
+							<td>1001</td>
+						    <td class="text_c"><span title="${user.name }">zhangsan</span></td>
+						    <td class="text_c"><span title="${user.email }">zhangsan@163.com</span></td>
+						    <td class="text_c"><span class="c_gray">
+      							<input type="button" value="&nbsp;删&nbsp;&nbsp;除&nbsp;" onclick="#"/>
+								<input type="button" value="&nbsp;详&nbsp;&nbsp;细&nbsp;" onclick="#"/>
+							</span></td>
+						</tr>
+												<tr style="background-color: rgb(255, 255, 255); font-weight: normal;" onmouseover="this.style.backgroundColor = '#f4f4f4';" onmouseout="this.style.fontWeight = 'normal';this.style.backgroundColor = '#fff';">
+							<td>1001</td>
+						    <td class="text_c"><span title="${user.name }">zhangsan</span></td>
+						    <td class="text_c"><span title="${user.email }">zhangsan@163.com</span></td>
+						    <td class="text_c"><span class="c_gray">
+      							<input type="button" value="&nbsp;删&nbsp;&nbsp;除&nbsp;" onclick="#"/>
+								<input type="button" value="&nbsp;详&nbsp;&nbsp;细&nbsp;" onclick="#"/>
+							</span></td>
+						</tr>
+												<tr style="background-color: rgb(255, 255, 255); font-weight: normal;" onmouseover="this.style.backgroundColor = '#f4f4f4';" onmouseout="this.style.fontWeight = 'normal';this.style.backgroundColor = '#fff';">
+							<td>1001</td>
+						    <td class="text_c"><span title="${user.name }">zhangsan</span></td>
+						    <td class="text_c"><span title="${user.email }">zhangsan@163.com</span></td>
+						    <td class="text_c"><span class="c_gray">
+      							<input type="button" value="&nbsp;删&nbsp;&nbsp;除&nbsp;" onclick="#"/>
+								<input type="button" value="&nbsp;详&nbsp;&nbsp;细&nbsp;" onclick="#"/>
+							</span></td>
+						</tr>
+												<tr style="background-color: rgb(255, 255, 255); font-weight: normal;" onmouseover="this.style.backgroundColor = '#f4f4f4';" onmouseout="this.style.fontWeight = 'normal';this.style.backgroundColor = '#fff';">
+							<td>1001</td>
+						    <td class="text_c"><span title="${user.name }">zhangsan</span></td>
+						    <td class="text_c"><span title="${user.email }">zhangsan@163.com</span></td>
+						    <td class="text_c"><span class="c_gray">
+      							<input type="button" value="&nbsp;删&nbsp;&nbsp;除&nbsp;" onclick="#"/>
+								<input type="button" value="&nbsp;详&nbsp;&nbsp;细&nbsp;" onclick="#"/>
+							</span></td>
+						</tr>
+												<tr style="background-color: rgb(255, 255, 255); font-weight: normal;" onmouseover="this.style.backgroundColor = '#f4f4f4';" onmouseout="this.style.fontWeight = 'normal';this.style.backgroundColor = '#fff';">
+							<td>1001</td>
+						    <td class="text_c"><span title="${user.name }">zhangsan</span></td>
+						    <td class="text_c"><span title="${user.email }">zhangsan@163.com</span></td>
+						    <td class="text_c"><span class="c_gray">
+      							<input type="button" value="&nbsp;删&nbsp;&nbsp;除&nbsp;" onclick="#"/>
+								<input type="button" value="&nbsp;详&nbsp;&nbsp;细&nbsp;" onclick="#"/>
+							</span></td>
+						</tr>
+					
+		
+					</tbody></table>
+					<div class="turnpage"><div>（共<s:property value="6"/>条）</div></div>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+		</table>
+	</div>
+	<!--账户右栏结束-->
+	<div class="empty_box"></div>
+</div>
+<div id="tag_box" style="display:none;position:absolute;" ></div>
+<div id="messageZone" class="box_loading"><img src="images/loading.gif" alt="载入状态" />
+	<p>请稍候...</p>
+</div>
+<div  align="center">
+<!--页尾开始 -->
+	<!-- 产权申明 -->
+<table width="962" height="120" border="0" cellpadding="0"
+			cellspacing="0" class="top_solid_FF6633">
+			<tr>
+				<td width="100%" height="60">
+					<span class="font_12_0D7101"><center>公司简介 | 诚征英才 | 网站联盟 | 百货招商 |
+						交易条款</center></span>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" height="60" align="center" valign="middle">
+					<span class="font_12_666">Copyright (C) 当当网 2009-2019, All Rights Reserved <img src="/b2cShop/images/icon/validate.gif" alt=""
+							width="40" height="48" align="middle" /> <a
+						href="http://www.miibeian.gov.cn"> 京ICP证041189号 音像制品经营许可证 京音网8号</a>
+					</span>
+				</td>
+			</tr>
+	</table>
+<!--页尾结束 -->
+</div>
+  </body>
+</html>

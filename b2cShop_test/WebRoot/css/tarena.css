@@ -1,0 +1,133 @@
+/* 
+ * Tarena 通用CSS模板 
+ * Author: madf
+ * Date: 2009/07/20
+ */
+
+/*---指定元素，默认属性定义---*/
+/*所有元素范围内*/
+* {margin:0;padding:0;} /* "margin:0;padding:0"外（内）边距的宽度为0，"border:0;"边框为0*/
+/*<body/>范围内*/
+body {
+	font-family:宋体,Arial,Helvetica,sans-serif; /*字体风格*/
+	font-size:12px; /*字体大小*/
+	color:#404040; /*字体颜色*/
+}
+
+/*<th/>范围内*/
+/*标题头单元格的风格*/
+th {
+	font-family: Arial, Helvetica, sans-serif;/*字体风格*/
+	font-size: 12pt;/*字体大小*/
+}
+/*<a/>范围内*/
+/*连接的是蓝色、已访问的是蓝色、滑过的是绿色、按下的是红色*/
+a:link { /*有连接的为蓝色，不带下画线.(只有首次访问有效，再次访问IE缓存会认为已经访问过，而去执行a:visited)*/
+ color: #000066;
+ text-decoration: none
+}
+a:visited { /*已访问的为蓝色，不带下画线*/ 
+ color: #000066;
+ text-decoration: none
+}
+a:hover {
+ color: #00ff00; /*鼠标滑过的连接为绿色，带下画线*/
+ text-decoration: underline;
+}
+a:active {/*连接被按下时为红色，带下画线*/ 
+ color: #ff0000;  
+ text-decoration: underline; /*此处可以不定义，按下时总是有线的*/
+}
+
+/*<div/>示例*/
+div.example {
+	position:absolute;  /*绝对位置*/
+	left:905px; /*左间距905*/
+	top:228px; /*上间距228*/
+	width:208px; /*宽208*/
+	z-index:1; /*第1层*/
+}
+
+/*---表格或单元格边框定义---*/
+/*四周组合动作*/
+/*四周有宽度为1的实线边框 颜色为黑色*/
+.BorderAllSolidBlack {
+	border: 1px solid #000000;
+}
+/*四周有宽度为1的实线边框 颜色为蓝色*/
+.BorderAllSolidBlue {
+	border: 1px solid #000066;
+}
+/*四周有宽度为1的虚线边框 颜色为黑色*/
+.BorderAllDottedBlack {
+	border: 1px dotted #000000;
+}
+/*四周有宽度为1的虚线边框 颜色为蓝色*/
+.BorderAllDottedBlue {
+	border: 1px dotted #000066;
+}
+/*单边分解动作*/
+/*上有宽度为1的实线边框 颜色为黑色*/
+.BorderTSolidBlack {
+	border-top: 1px solid #000000;
+}
+/*下有宽度为1的实线边框 颜色为黑色*/
+.BorderBSolidBlack {
+	border-bottom: 1px solid #000000;
+}
+/*左有宽度为1的实线边框 颜色为黑色*/
+.BorderLSolidBlack {
+	border-left: 1px solid #000000;
+}
+/*右有宽度为1的实线边框 颜色为黑色*/
+.BorderLSolidBlack {
+	border-right: 1px solid #000000;
+}
+/*上有宽度为1的虚线边框 颜色为黑色*/
+.BorderTDottedBlack {
+	border-top: 1px solid #000000;
+}
+/*下有宽度为1的虚线边框 颜色为黑色*/
+.BorderBDottedBlack {
+	border-bottom: 1px solid #000000;
+}
+/*左有宽度为1的虚线边框 颜色为黑色*/
+.BorderLDottedBlack {
+	border-left: 1px solid #000000;
+}
+/*右有宽度为1的虚线边框 颜色为黑色*/
+.BorderLDottedBlack {
+	border-right: 1px solid #000000;
+}
+/*上有宽度为1的实线边框 颜色为蓝色*/
+.BorderTSolidBlue {
+	border-top: 1px solid #000066;
+}
+/*下有宽度为1的实线边框 颜色为蓝色*/
+.BorderBSolidBlue {
+	border-bottom: 1px solid #000066;
+}
+/*左有宽度为1的实线边框 颜色为蓝色*/
+.BorderLSolidBlue {
+	border-left: 1px solid #000066;
+}
+/*右有宽度为1的实线边框 颜色为蓝色*/
+.BorderLSolidBlue {
+	border-right: 1px solid #000066;
+}
+/*上有宽度为1的虚线边框 颜色为蓝色*/
+.BorderTDottedBlue {
+	border-top: 1px dotted #000066;
+}
+/*下有宽度为1的虚线边框 颜色为蓝色*/
+.BorderBDottedBlue {
+	border-bottom: 1px dotted #000066;
+}
+/*左有宽度为1的虚线边框 颜色为蓝色*/
+.BorderLDottedBlue {
+	border-left: 1px dotted #000066;
+}
+/*右有宽度为1的虚线边框 颜色为蓝色*/
+.BorderRDottedBlue {
+	border-right: 1px dotted #000066;
+}

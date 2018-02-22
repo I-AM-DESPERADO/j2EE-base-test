@@ -1,0 +1,241 @@
+!SESSION 2016-08-30 09:28:00.444 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2016-08-30 09:28:57.041
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-08-30 09:28:57.041
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@1c82121,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2016-08-30 09:29:08.380
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.082
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.129
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.191
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.223
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.254
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.269
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.301
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.332
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.363
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.406
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-08-30 09:29:09.436
+!MESSAGE Installed snippet library: C:\Users\Administrator\AppData\Local\Genuitec\MyEclipse 8.5\configuration\org.eclipse.osgi\bundles\119\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.maven.ide.eclipse 4 0 2016-08-30 09:35:26.766
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.607
+!MESSAGE NLS missing message: JavaMetaUtils_warning_default_package in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.607
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_doesnt_exist_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.607
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_doesnt_exist_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.608
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_not_jre_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.608
+!MESSAGE NLS missing message: JavaVMUtility_dialog_jdk_not_jre_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.608
+!MESSAGE NLS missing message: JavaVMUtility_launchconfig_default_server_type_id_attr in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.608
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_browse_jar_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.608
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_invalidfile_message in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.608
+!MESSAGE NLS missing message: MELibraryFieldEditor_dialog_invalidfile_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.609
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_add_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.609
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_down_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.609
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_edit_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.609
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_remove_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.609
+!MESSAGE NLS missing message: MELibraryFieldEditor_button_up_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.609
+!MESSAGE NLS missing message: MELibraryWizardPage_description in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.609
+!MESSAGE NLS missing message: MELibraryWizardPage_error_selection_onlyone in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.610
+!MESSAGE NLS missing message: MELibraryWizardPage_error_selection_zero in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.610
+!MESSAGE NLS missing message: MELibraryWizardPage_list_library_selector_label in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-08-30 09:36:58.610
+!MESSAGE NLS missing message: MELibraryWizardPage_title in: com.genuitec.eclipse.core.platformmessages
+
+!ENTRY org.eclipse.osgi 2 0 2016-08-30 09:37:53.615
+!MESSAGE While loading class "org.eclipse.jst.j2ee.contenttype.J2EEContentDescriber", thread "Thread[Worker-2,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-8,5,main]" to finish starting bundle "org.eclipse.jst.j2ee_1.1.301.me201003162025 [668]". To avoid deadlock, thread "Thread[Worker-2,5,main]" is proceeding but "org.eclipse.jst.j2ee.contenttype.J2EEContentDescriber" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:/C:/Users/Administrator/AppData/Local/Genuitec/Common/plugins/org.eclipse.jst.j2ee_1.1.301.me201003162025.jar" by thread "Worker-8".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.core.internal.content.ContentType.getDescriber(ContentType.java:271)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:183)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:357)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:406)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:303)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:317)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:86)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:436)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:346)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:270)
+	at org.eclipse.ui.internal.ide.ContentTypeDecorator.decorate(ContentTypeDecorator.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 38 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:326)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:231)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1193)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:160)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:874)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:51)
+	at org.eclipse.core.internal.content.ContentType.getDescriber(ContentType.java:271)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:183)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:357)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:406)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:303)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:317)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:86)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:436)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:346)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:270)
+	at org.eclipse.ui.internal.ide.ContentTypeDecorator.decorate(ContentTypeDecorator.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2016-08-30 09:43:42.639
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2016-08-30 09:43:42.639
+!MESSAGE Conflict for 'com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug':
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@fcf912,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=com.genuitec.eclipse.ast.deploy.core.runonservershortcut.debug,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@441260,
+	expression=,sourcePriority=0)

@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:940px;
+	margin:2px 220px;
+}
+ul{
+	list-style:none;
+}
+a{
+	color:#000;
+}
+#top{
+	width:940px;
+	height:97px;
+	float:left;
+	margin:8px 0px;
+}
+#top1{
+	width:940px;
+	height:20px;
+	float:left;
+	font-size:14px;
+	border-color:#CCC;
+	border-style:solid;
+	border-width:1px;
+	background-image:url(../Image/opt_sub.gif);
+	margin:0px 0px;
+	padding-top:5px;
+	padding-left:8px;
+}
+#top4{
+	width:948px;
+	height:77px;
+	float:left;
+	border-bottom-color:#CCC;
+	border-left-color:#CCC;
+	border-right-color:#CCC;
+	border-top-color:#FFF;
+	border-style:solid;
+	border-width:1px;
+	padding:0px 0px;
+}
+#top2{
+	width:140px;
+	height:77px;
+	float:left;
+	float:left;
+	background-image:url(../Image/logo.jpg);
+	background-color:#C69;
+}
+#top3{
+	width:800px;
+	height:77px;
+	float:left;
+	margin-left:8px;
+	margin-top:3px;
+	background-image:url(../Image/a_b01.gif);
+	background-repeat:no-repeat;
+}
+
+#main{
+	width:930px;
+	height:560px;
+}
+#main_top{
+	width:930px;
+	height:25px;
+	float:left;
+	background-image:url(../Image/admin_bar.gif);
+	background-repeat:repeat-x;
+	margin-top:12px;
+	padding-left:20px;
+	padding-top:5px;
+	font-size:14px;
+	font-weight:580;
+}
+#main_left{
+	width:186px;
+	float:left;
+}
+#new1{
+	font-size:14px;
+}
+#main_right{
+	float:left;
+	width=744px;
+    height=450px;
+}
+
+
+
+
+
+#bottom{
+	width:900px;
+	height:80px;
+	float:left;
+	margin:0px 0px;
+}
+#bottom1{
+	width:900px;
+	height:15px;
+	float:left;
+	background-image:url(../Image/nav_leftline.gif);
+	border-top-color:#09F;
+	border-bottom-color:#FFF;
+	border-left-color:#FFF;
+	border-right-color:#FFF;
+	border-style:solid;
+	border-width:1px;
+	margin-top:10px;
+	padding-bottom:5px;
+	padding-left:50px;
+	font-size:12px;
+	padding-top:5px;
+}
+
+#bottom2{
+	width:900px;
+	height:40px;
+	float:left;
+	margin-top:5px;
+}
+#l1{
+	width:250px;
+	height:20px;
+	float:left;
+	font-size:12px;
+	color:#666;
+	margin-left:20px;
+}
+#l2{
+	width:230px;
+	height:20px;
+	float:left;
+	font-size:12px;
+	color:#666;
+	margin-left:150px;
+}
+#l3{
+	height:20px;
+	float:left;
+	font-size:12px;
+	color:#333;
+	text-decoration:underline;
+}
+
+#bottom3{
+	width:900px;
+	height:40px;
+	float:left;
+	margin-top:10px;
+}
+#l4{
+	width:650px;
+	height:20px;
+	float:left;
+	font-size:12px;
+	color:#333;
+	margin-left:210px;	
+}
+#l5{
+	width:60px;
+	height:20px;
+	float:left;
+	font-size:12px;
+	color:#666;
+	margin-left:28px;
+}

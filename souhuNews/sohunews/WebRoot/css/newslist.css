@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+a:hover{
+	color:#f00;
+	text-decoration:underline;
+	
+	}
+a{
+	font-size:14px;
+	text-decoration:none;
+	color:#000;
+	heigth:30px;
+	 margin-left:10px;
+	
+	}
+ul{
+	list-style:none;
+}
+#row{
+	width:710px;
+	heigth:50px;
+	font-size:14px;
+}
+#row1{
+	width:550px;
+	heigth:30px;
+	font-size:14px;
+}
+#row2{
+	width:100px;
+	heigth:30px;
+	font-size:14px;
+}
+#row3{
+	width:60px;
+	heigth:30px;
+	font-size:14px;
+}

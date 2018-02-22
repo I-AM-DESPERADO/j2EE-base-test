@@ -1,0 +1,96 @@
+/* 
+ * GWAP 修改“地址+密码”样式 
+ * Author: madf
+ * Date: 2009/07/29
+ */
+input{vertical-align: middle; font-size:12px}
+.t1 a{ color:#0041D3; text-decoration:underline}
+.t1 a:hover{ color:#0041D3; text-decoration:underline}
+.t2 a{ color:#404040; text-decoration:none}
+.t2 a:hover{ color:#404040; text-decoration:underline}
+.t3 a{ color:#666; text-decoration:none}
+.t3 a:hover{ color:#666; text-decoration:underline}
+.t4 a{ color:#9b9b9b; text-decoration:none}
+.t4 a:hover{ color:#9b9b9b; text-decoration:underline}
+.red_bold{ color:#ff0000; font-weight:bold}
+.red{ color:#ff0000}
+.red2{ color:#f27013; font-size:12px}
+.c_gray{ color:#9b9b9b; font-size:12px}
+.text_bold{ font-weight:bold}
+.button_1{ width:50px; height:22px; padding-top:1px; cursor:hand}
+.text_c{ text-align:center}
+.button_delete{ width:65px; height:20px; padding-top:1px; cursor:hand}
+.button_often{ width:115px; height:20px; padding-top:1px; cursor:hand}
+.button_ok{ width:65px; height:23px; font-size:14px; padding-top:1px; cursor:hand}
+.your_position{ height:25px; padding:10px 0 0 5px; width:945px; margin:auto}/*07.12.17modify*/
+
+.account_center{ width:950px; padding-bottom:30px; margin:auto; margin-bottom:30px; background:url(../images/left_navi_bj2.gif) repeat-y left; border-bottom:solid 1px #a8e4ef}/*07.12.17modify*/
+
+.empty_box{ clear:left; height:1px; overflow:hidden}
+.empty_box2{ clear:both}
+.account_right h2{ height:20px; padding-top:5px; font-size:14px; color:#666}
+.account_right .change_h2{ font-size:12px; font-weight:normal; color:#414141}
+.account_right .add_f{ float:right; padding-top:2px; color:#9b9b9b}
+.my_address{ height:132px; width:780px; background:url(../images/address_bj_c.gif) repeat-x}/*07.12.17modify*/
+.my_address .bj_l{ width:4px; height:132px; background:url(../images/address_bj_l.gif) no-repeat; float:left}
+.my_address .bj_r{ width:4px; height:132px; background:url(../images/address_bj_r.gif) no-repeat; float:right}
+.my_address .c_main{ width:768px; height:122px; padding-top:10px; float:left}/*07.12.17modify*/
+.my_address .c_main .often{ height:23px; padding-left:12px}
+.my_address .c_main .often h5{ float:left; font-size:12px}
+.my_address .c_main .often .problem{ float:right; text-align:right}
+.my_address .c_main ul{ list-style:none; padding-left:48px; background:url(../images/label_1.gif) no-repeat 12px 20px}
+.my_address .c_main ul li{ padding-bottom:8px}
+.other_address{ height:90px; padding:18px 0 8px 30px; border-bottom:solid 1px #a9a9a9}
+.other_address .number{ width:20px; height:60px; float:left}
+.other_address ul{ float:left; list-style:none}
+.other_address ul li{ padding-bottom:8px}
+.other_address .add_left{ margin-left:15px}
+.account_right h3{ height:27px; font-size:14px; font-weight:normal}
+.account_right .look_gift{ width:812px; height:18px}
+.account_right h4{ height:18px; font-size:12px}
+.account_right .add_h{ float:left; width:600px}
+.account_right .right_look{ float:right; padding-right:3px}
+.account_right .no_order{ text-align:center; padding-top:100px; color:#9b9b9b}
+.account_right .no_order p{ font-size:14px; font-weight:bold; padding-bottom:20px; color:#414141}
+
+.account_message{ width:650px; height:196px; margin:auto; margin-top:30px;}
+.account_message .m_bj_l{ width:4px; height:196px; background:url(../images/account_bj_l.gif) no-repeat; float:left}
+.account_message .message_content{ width:485px; font-size:14px; padding:85px 0 0 145px; float:left}
+.account_message .add_m_left{width:300px; padding-left:195px}
+.account_message .add_m_left2{width:300px; padding-left:260px}
+.account_message .m_bj_r{ width:4px; height:196px; background:url(../images/account_bj_r.gif) no-repeat; float:right}
+
+
+.your_news{ padding:8px 0 20px 0; text-align:right; color:#9b9b9b}
+.your_news p{ padding-bottom:10px}
+.look_old{ height:30px; padding-top:15px}
+.look_old select{ font-size:12px; float:left}
+.look_old input{ margin-left:8px; float:left}
+.nickname{ width:460px;padding:55px 0 0 160px; float:left}
+.nickname .material{ height:30px}
+.nickname .material .s_font{ font-size:14px}
+.nickname .material span{ float:left; padding-top:4px}
+.nickname .material .textbox{ float:left; width:155px; height:16px; padding:2px 0 0 5px; margin-right:10px; border:solid 1px #8c8e8e}
+.nickname .material .add_style{ margin-left:70px}
+.nickname p{ height:25px; padding-top:15px; color:#9b9b9b}
+
+.modify_email{ width:492px;height:157px; float:left;background-color:#f4feff;border:1px solid #d3d3d3; border-bottom:1px solid #d3d3d3;  padding:38px 0 0 150px}
+.modify_email ul{ list-style:none; font-size:14px}
+.modify_email ul li{ height:22px; padding-bottom:10px}
+.modify_email ul li .textbox2{width:155px; height:16px; padding:2px 0 0 5px; border:solid 1px #8c8e8e}
+.modify_email .add_ok{ margin-left:125px; margin-top:5px}
+.reduce_modify_w{ width:592px; padding-left:50px}
+.add_modify_w{ width:442px; padding-left:200px}
+.modify_email p{ font-size:14px; padding-top:15px}
+.modify_email .label_success{ height:30px;background:url(../images/label_2.gif) no-repeat 50px 10px; padding-left:90px; padding-top:15px}
+.modify_password{height:50px; padding:50px 0 0 130px; font-size:14px; background:url(../images/label_2.gif) no-repeat 90px 42px; float:left}
+.account_top{ width:756px; height:45px; margin:auto; padding-bottom:5px; padding-top:3px}
+.account_order{width:671px; padding:8px 0 3px 85px; margin:auto; background-color:#e3f1ff; border:solid 1px #9cadbc; border-bottom:none}
+.account_order ul{ width:334px; list-style:none; float:left}
+.account_order ul li{ height:20px}
+.account_order ul .add_high{ height:23px}
+.account_order ul li input{ width:70px; height:20px; padding-top:1px; margin-left:8px; cursor:hand}
+
+
+
+

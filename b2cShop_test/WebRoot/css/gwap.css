@@ -1,0 +1,291 @@
+/* 
+ * GWAP项目CSS文档 
+ * Author: madf
+ * Date: 2009/07/20
+ */
+
+/*左右有颜色为9BB17E的实线，背景色为F9FAED*/
+.BorderLRSolidF9FEAD {
+	border-left:1px solid #9BB17E;
+	border-right:1px solid #9BB17E;
+	background-color:#F9FAED;
+}
+/*左右有颜色为白色的实线，背景色为FFFCF5*/
+.BorderLRSolidCCCCCC {
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	background-color:#FFFCF5;
+}
+/*左右下有颜色为黑色的实线，上有颜色为9BB17E的实线，背景色为D8E4C6*/
+.BorderALLSolidD8E4C6 {
+	border-left:1px solid #9BB17E;
+	border-right:1px solid #9BB17E;
+	border-top:1px solid #9BB17E;
+	border-bottom:1px solid #9BB17E;
+	background-color:#D8E4C6;
+}
+/*左右下有颜色为黑色的实线，上有颜色为9BB17E的实线，背景色为F9D9AA*/
+.BorderALLSolidF9D9AA {
+	border-left:1px solid #9BB17E;
+	border-right:1px solid #9BB17E;
+	border-top:1px solid #9BB17E;
+	border-bottom:1px solid #9BB17E;
+	background-color:#F9D9AA;
+}
+/* 四周有颜色为CCCCCC的实线，背景色是FFFCF5 */
+.BorderALLSolidCCCCCC {
+	border:1px solid #CCCCCC;
+	background-color:#FFFCF5;
+}
+/* 四周有颜色为F4E9CC的实线，背景色是FEF8E8 */
+.BorderALLSolidF4E9CC {
+	border:1px solid #f4e9cc;
+	background-color:#FEF8E8;
+}
+/* 下有颜色为gray的实线，顶部填充（内部）宽度为5，底部填充（内部）宽度为5，背景色是FFF4D7 */
+.BorderBSolidGray-PT5-PB5 {
+	border-bottom:1px solid gray;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#FFF4D7
+};
+/* 右边有颜色为333333的虚线边框 */
+.right_dashed_1 {
+	border-right:1px dashed #333333;
+}
+/* 上边有颜色为333333的虚线边框 */
+.top_dashed_1 {
+	border-top:1px dashed #333333;
+}
+/* 下边有颜色为333333的虚线边框 */
+.bottom_dashed_1 {
+	border-bottom:1px dashed #333333;
+}
+/* 上有颜色为FF6633实线边框*/
+.top_solid_FF6633 {
+	border-top: 1px solid #FF6633;
+}
+/* 上有颜色为gray实线边框 */
+.top_solid_gray {
+	border-top:1px solid gray;
+}
+/* 下有颜色为gray实线边框 */
+.bottom_solid_gray {
+	border-bottom:1px solid gray;
+}
+/* 右有颜色为gray实线边框 */
+.right_solid_gray {
+	border-right:1px solid gray;
+}
+/* 有背景图片，图片横向重复从左上至右上进行重复。 */
+.TableJianJu{
+	background-image:url(../images/jianbian1.gif);
+	background-repeat:repeat-x;
+}
+/* 大小12，颜色000000，左对齐，风格"Times New Roman", Times, serif。*/
+.font_12_black {
+	font-size:12px;
+	font-family:"Times New Roman", Times, serif;
+	color:#000000;
+	text-align:left;
+	line-height:22px;
+}
+/* 大小12，颜色0D7101，风格"Times New Roman", Times, serif。*/
+.font_12_0D7101 {
+	font-size:12px;
+	font-family:"Times New Roman", Times, serif;
+	color:#0D7101;
+}
+/* 大小12，颜色white，文字间隔5，风格"Times New Roman", Times, serif。*/
+.font_12_white {
+	font-size:12px;
+	font-family:"Times New Roman", Times, serif;
+	color:white;
+	letter-spacing:5px;
+}
+/* 大小14，颜色white，文字间隔3，风格"Times New Roman", Times, serif。*/
+.font_14_white {
+	font-size:14px;
+	font-family:"Times New Roman", Times, serif;
+	color:white;
+	letter-spacing:3px;
+}
+/* 大小14，颜色black，粗体文字，风格"新宋体"。*/
+.font_14_black_bold {
+	font-size:14px;
+	font-family:"新宋体";
+	color:black;
+	font-weight:bold;
+}
+/* 大小13，粗体文字，文字间隔3，颜色F60，左对齐，左边界（外部）10，风格"Times New Roman", Times, serif。*/
+.font_13_F60 {
+	font-size:13px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	letter-spacing:3px;
+	color:#F60;
+	margin-left:10px;
+	text-align:left;
+}
+/* 大小12，颜色666，左对齐，风格"Times New Roman", Times, serif。*/
+.font_12_666 {
+	font-size:12px;
+	color:#666;
+	font-family:"Times New Roman", Times, serif;
+	text-align:left;
+}
+/* 大小12，颜色666，左对齐，有下划线，风格"Times New Roman", Times, serif。*/
+.font_12_666_through_line {
+	font-size:12px;
+	color:#666;
+	font-family:"Times New Roman", Times, serif;
+	text-align:left;
+	text-decoration:line-through;
+}
+/* 大小12，颜色1a66b3，左对齐，风格"宋体"。*/
+.font_12_1a66b3 {
+	font-size:12px;
+	color:#1a66b3;
+	font-family:"宋体";
+	text-align:left;
+}
+/* 大小12，颜色C30，左对齐，粗体，风格"宋体"。*/
+.font_12_C30 {
+	font-size:12px;
+	color:#C30;
+	font-family:"宋体";
+	text-align:left;
+	font-weight:bold;
+}
+/* 大小12，颜色666，左对齐，粗体，风格"Times New Roman", Times, serif。*/
+.font_12_666_space {
+	font-size:12px;
+	color:#666;
+	font-family:"Times New Roman", Times, serif;
+	text-align:left;
+	line-height:22px;
+}
+/* 大小14，颜色1A66B3，左对齐，风格Arial, Helvetica, sans-serif。*/
+.font_1A66B3_14px {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#1A66B3;
+	text-align:left;
+}
+/* 大小12，颜色C30，左对齐，风格Arial, Helvetica, sans-serif。*/
+.font_C30_12px {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#C30;
+	text-align:left;
+}
+/* 大小12，颜色RED，风格Arial, Helvetica, sans-serif。*/
+.font_12_red {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:RED;
+}
+/* 大小16，颜色RED，风格"宋体"。*/
+.font_16_red {
+	font-family:"宋体";
+	font-size:16px;
+	color:RED;
+}
+/* 大小16，颜色gray，风格"宋体"。*/
+.font_16_gray {
+	font-family:"宋体";
+	font-size:16px;
+	color:gray;
+}
+/* 大小13，颜色1A66B3，左边界（外部）5，左对齐，风格Arial, Helvetica, sans-serif。*/
+p.f_1A66B3_13px {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#1A66B3;
+	margin-left:5px;
+	text-align:left;
+}
+/* 大小12，颜色gray，左边界（外部）5，左对齐，风格Arial, Helvetica, sans-serif。*/
+p.f_gray_12px {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:gray;
+	margin-left:5px;
+	text-align:left;
+}
+/* 大小12，颜色black，左边界（外部）5，左对齐，风格Arial, Helvetica, sans-serif。*/
+p.f_black_12px {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:black;
+	margin-left:5px;
+	text-align:left;
+}
+/* <td/>有背景图片宽度75，图片位置居中，图片不重复。 */
+td.shopcart_bg {
+	background-image:url(../images/cart_bg1.gif);
+	width:75px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+/* <td/>有背景图片,图片横向重复从左上至右上进行重复。*/
+td.bg_book_c_jianbian {
+	background-image:url(../images/book_c_jianbian.gif);
+	background-repeat:repeat-x;
+}
+/* <td/>有背景图片,图片横向重复从左上至右上进行重复。*/
+td.bg_jianbian_144 {
+	background-image:url(../images/jian_bian_144.gif);
+	background-repeat:repeat-x;
+}
+/* 边框风格“外凸”，背景色0B8A22，左面有宽度为1的白线 */
+td.outset_0B8A22 {
+	border-style:outset;
+	background-color:#0B8A22;
+	border-left:1px inset white;
+}
+/* 边框风格“外凸”，背景色FFF4DE，左面有宽度为1的白线 */
+td.outset_FFF4DE {
+	border-style:outset;
+	background-color:#FFF4DE;
+	border-left:1px inset white;
+}
+/* 边框风格“槽状”，边框宽度1实线black色，宽度230，高度20，左对齐，垂直方向局中，背景图片， 图片不重复，背景位置局左。*/
+.TextFieldBorder_1 {
+	border-style:groove;
+	border:1px solid black;
+	width:230px;
+	height:20px;
+	text-align:left;
+	vertical-align:middle;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+/* 宽度150，高度18，边框宽度1实线gray色，背景色FEF4D0。*/
+.input_field_size {
+	width:150px;
+	height:18px;
+	border:1px solid gray;
+	background-color:#FEF4D0;
+}
+/* 宽度290，高度18，边框宽度1实线gray色，背景色FEF4D0。*/
+.input_field_size_290 {
+	width:290px;
+	height:18px;
+	border:1px solid gray;
+	background-color:#FEF4D0;
+}
+/* 高20，宽53，边框宽1，颜色000000，有图片背景，字体“Tahoma, Verdana”，字体大小9 */
+.butt_login {
+	height: 20px;
+	width: 53px;
+	border: 1px none #000000;
+	background-image: url(../images/user/tag_cx.gif);
+	font-family: Tahoma, Verdana;
+	font-size: 9pt;
+}
+/*订单确认页面，商品清单*/
+.busi_bord{ padding:1px; border:solid 1px #c3c3c3; background-color:#fff;}
+.tabl_busi{ border-collapse:collapse}
+.tabl_busi td{ height:26px}
+

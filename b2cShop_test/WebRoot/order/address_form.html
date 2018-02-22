@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+   <title>生成订单 - 当当网</title>
+		<link href="/dangdang/css/login.css" rel="stylesheet" type="text/css" />
+		<link href="/dangdang/css/page_bottom.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/dangdang/js/jquery-1.4.4.js"></script>
+		<script type="text/javascript" src="/dangdang/myjs/address.js"></script>
+			
+
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <div class="login_top">
+	<a href="mainAction">
+	<img class="logo" src="/dangdang/images/logo.gif" /> </a>
+</div>
+		<div class="login_step">
+			生成订单骤: 1.确认订单 &gt;
+			<span class="red_bold"> 2.填写送货地址</span> &gt; 3.订单成功
+		</div>
+		<div class="fill_message">
+			<p>
+				选择地址：
+				<select id="address">
+					<option value="-1">
+						填写新地址
+					</option>
+					
+				</select>
+			</p>
+			<form name="ctl00" onsubmit="#" method="post" action="orderOkAction" id="f" >
+				<input type="hidden" name="id" id="addressId" />
+
+				<table class="tab_login">
+					<tr>
+						<td valign="top" class="w1">
+							收件人姓名：
+						</td>
+						<td>
+							<input type="text" class="text_input" name="address.receiveName"
+								id="receiveName" onblur="return checkName();"/>
+							<div class="text_left" id="nameValidMsg">
+								<p>
+									请填写有效的收件人姓名
+								</p>
+								<span id="nameMsg" style="color:red;"></span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" class="w1">
+							收件人详细地址：
+						</td>
+						<td>
+							<input type="text" name="address.fullAddress" class="text_input"
+								id="fullAddress" onblur="#"/>
+							<div class="text_left" id="addressValidMsg">
+								<p>
+									请填写有效的收件人的详细地址
+								</p>
+								<span id="addressMsg" style="color:red;"></span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" class="w1">
+							邮政编码：
+						</td>
+						<td>
+							<input type="text" class="text_input" name="address.postalCode"
+								id="postalCode" onblur="#"/>
+							<div class="text_left" id="codeValidMsg">
+								<p>
+									请填写有效的收件人的邮政编码(必须为6位数字)
+								</p>
+								<span id="postalMsg" style="color:red;"></span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" class="w1">
+							电话：
+						</td>
+						<td>
+							<input type="text" class="text_input" name="address.phone"
+								id="phone" onblur="#"/>
+							<div class="text_left" id="phoneValidMsg">
+								<p>
+									请填写有效的收件人的电话
+								</p>
+								<span id="phoneMsg" style="color:red;"></span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" class="w1">
+							手机：
+						</td>
+						<td>
+							<input type="text" class="text_input" name="address.mobile"
+								id="mobile" onblur="#"/>
+							<div class="text_left" id="mobileValidMsg" >
+								<p>
+									请填写有效的收件人的手机(必须为11位数字)
+								</p>
+								<span id="mobileMsg" style="color:red;"></span>
+							</div>
+						</td>
+					</tr>
+				</table>
+						<input type="hidden" value="newAddress" id="add" name="add"/>
+						<div class="login_in">
+
+					<a href="/b2cShop/order/order_info.html"><input id="btnClientRegister" class="button_1" name="submit"
+					type="submit" value="取消" /></a>
+			
+				<input id="btnClientRegister" class="button_1" name="submit" 
+					type="submit" value="下一步" />
+				</div>
+			</form>
+		</div>
+		
+<div>
+	<center>
+		<hr style="height: 1px; width: 972px; color: #cfcfcf" />
+		<div class="b_left"></div>
+		<div class="publish_bottom_message2">
+			<div class="copyright">
+				Copyright (C) 当当网 2004-2008, All Rights Reserved
+			</div>
+			<div class="validate">
+				<a
+					href="#http://www.hd315.gov.cn/beian/view.asp?bianhao=010202001051000098"
+					target="_blank"> <img
+						src="/dangdang/images/validate.gif"
+						border="0" /> </a>
+				<p>
+					<a href="" target="_blank">京ICP证041189号</a>
+				</p>
+			</div>
+		</div>
+	</center>
+</div>
+
+  </body>
+</html>
